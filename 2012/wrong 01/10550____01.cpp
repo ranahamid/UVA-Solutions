@@ -1,0 +1,19 @@
+#include<iostream>
+#include<stdio.h>
+#include<math.h>
+#include<iomanip>
+using namespace std;
+int main()
+{
+int test,kase=0;
+int i,a,v,c,b,deg;
+while(cin>>i>>a>>b>>c,i,a,b,c)
+  {
+  int temp1=(a>i?(40-a)+i:(i-a));
+  int temp2=(b<a?(40-a)+b:(b-a)) ;
+  int temp3=(c>b?(40-c)+b:(b-c));
+  
+  deg = 720+360 +(  temp1+ temp2+ temp3)*9;
+  cout<<deg<<endl;
+  }
+}

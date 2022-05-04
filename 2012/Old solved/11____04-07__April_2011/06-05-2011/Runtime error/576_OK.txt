@@ -1,0 +1,20 @@
+    #includestdio.h
+
+    int main()
+    {
+    long int n,k,r,f,g,temp;
+    int i,j;
+    while(scanf(%ld%ld,&n,&k)==2)
+    {
+    if(n==0 && k==0) break;
+    g=1;
+    if(kn2) k=n-k;
+    for(i=n,j=1;ik,j=k;i--,j++)
+    {
+    g=i;
+    g=j;
+    }
+    printf(%ldn,g);
+    }
+    return 0;
+    }
